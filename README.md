@@ -14,6 +14,7 @@
 # Install
 ## Hardware
 
+```
                                    |--(CAT6)->[Control-Service] RPI4 - 8GB(RAM)
              ________________      |    |-(USB)->[NFS-SSD] - 120GB
             | Gigabit Switch |---> |--(CAT6)->[Compute-Node1] RPI4 - 8GB(RAM)
@@ -22,6 +23,7 @@
             | Router MT |          |--(CAT6)->[Compute-Node4] RPI4 - 4GB(RAM)
 Internet -->| DHCP & GW |          |--(CAT6)->[Compute-Node5] RPI4 - 4GB(RAM)
              -----------           |--(CAT6)->(Option)[GPU-Node1] NVD nano -  4GB(RAM)
+```
 
 ## Network 
 ## Software

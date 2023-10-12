@@ -1,0 +1,18 @@
+rpi3:
+  hosts:
+    frontend:
+      ansible_host: 10.10.0.10
+    compute01:
+      ansible_host: 10.10.0.101
+    compute02:
+      ansible_host: 10.10.0.102
+    compute03:
+      ansible_host: 10.10.0.103
+    compute04:
+      ansible_host: 10.10.0.104
+    compute05:
+      ansible_host: 10.10.0.105
+    compute06:
+      ansible_host: 10.10.0.106
+  vars:
+    ansible_user: ubuntu
