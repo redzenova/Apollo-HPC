@@ -1,4 +1,5 @@
 # Apollo-HPC
+
  Mini raspberry pi cluster with slurm workload manager
 
 # Cluster Infomation
@@ -26,15 +27,25 @@ Internet -->| DHCP & GW |          |--(CAT6)->[Compute-Node5] RPI4 - 4GB(RAM)
 ```
 
 ## Network 
+In under test, now I will try to compile DPDK and SoftRDMA to replace TCP.
+```
+DPDK
+SoftRDMA
+```
+
 ## Software
+```
 MUNGE
 SLURM
 Lmod
+Spack
 Easybuild
 MPI(MPICH, OpenMPI)
 ATLAS
 OpenBLAS
+UCX
 HPL
+```
 
 ### Install Development Tools
 ```bash
